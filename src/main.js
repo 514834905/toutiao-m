@@ -11,6 +11,9 @@ import Vant from 'vant'
 // 导入vant全局样式
 import 'vant/lib/index.css'
 
+// 加载动态设置rem基准值
+import 'amfe-flexible'
+
 // 注册使用vant组件库
 Vue.use(Vant)
 
